@@ -12,7 +12,7 @@ set ldt=%date% %time%
 @ECHO [Process Name]               [PID] [Session name]    [Session#]        [MEM]
 TASKLIST  |   FINDSTR /I  chrome.exe   ||  START /I chrome.exe  
 ECHO [FINDSTR] Finished.
-@ECHO Kill Process?
+@ECHO Run taskkill?
 @ECHO OFF
 PAUSE
 setlocal EnableExtensions EnableDelayedExpansion
