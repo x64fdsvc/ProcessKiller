@@ -1,6 +1,8 @@
-rem ///A Simple ProcessKiller Made by @ztlv_, June 2024.///
+rem ////////A Simple ProcessKiller Made by @ztlv_, ////////
 rem $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 rem ///////////////////////////////////////////////////////
+rem ///// https://github.com/x64fdsvc/ProcessKiller //////
+rem /////////////////////////////////////////////////////
 
 color 0d
 mode con:cols=77  lines=40
