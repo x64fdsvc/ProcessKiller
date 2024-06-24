@@ -1,6 +1,6 @@
 A Simple Batch ProcessKiller Made by @ztlv_, June 2024.
 
-Replace Image Names(Application Names) before the .exe's to use ProcessKiller on other Applications, Chrome.exe has been set as an example
+Replace Image Names(Application Names) before the .exe's to use ProcessKiller on other Applications. Chrome.exe has been set as an example
 
 To find your Image Name(Application Name) Run Command Prompt,  tasklist. And use your Applications Image Name
 
