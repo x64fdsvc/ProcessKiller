@@ -26,8 +26,8 @@ EXIT /B
 
 rem $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 rem //////////////////////////////////////////////////
-rem Replace Image Names before the .exe's to use ProcessKiller on other Applications, Chrome.exe has been set as an example
-rem To find your Applications Image name Run Command Prompt,  tasklist. And use your Applications Image Name
+rem Replace Image Names(Application Names) before the .exe's to use ProcessKiller on other Applications, Chrome.exe has been set as an example
+rem To find your Image Name(Application Name) Run Command Prompt,  tasklist. And use your Applications Image Name
 rem Note tasklist Image Names(Application Names) Are Case Sensitive 
 rem Launching ProcessKiller will check if your Applications running and try to launch it if not found launched. To disable this seek[START chrome.exe] And remove the code from this batch file(Might break things)
 rem (EXTRA)ProcessKillerLogs.txt along your batch logging Time, Dates & Application Names
