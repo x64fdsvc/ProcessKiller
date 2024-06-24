@@ -1,8 +1,7 @@
-rem ////////A Simple ProcessKiller Made by @ztlv_, ////////
-rem $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-rem ///////////////////////////////////////////////////////
-rem ///// https://github.com/x64fdsvc/ProcessKiller //////
+rem ////////A Simple ProcessKiller Made by @ztlv_, ///////
 rem /////////////////////////////////////////////////////
+rem ///// https://github.com/x64fdsvc/ProcessKiller ////
+rem ///////////////////////////////////////////////////
 
 color 0d
 mode con:cols=77  lines=40
