@@ -7,11 +7,11 @@ mode con:cols=77  lines=40
 @Title ProcessKiller - %DATE% - %TIME% 
 @ECHO OFF
 set ldt=%date% %time%
-ECHO %ldt%>> ProcessKillerLogs.txt / Ran ProcessKiller on Chrome.exe
-ECHO FINDSTR LOCATING PID's . . .
-ECHO [Process Name]               [PID] [Session name]    [Session#]        [MEM]
-TASKLIST  |   FINDSTR  chrome.exe   ||  START chrome.exe  
-ECHO FINDSTR FINISHED.
+@ECHO %ldt%>> ProcessKillerLogs.txt / Ran ProcessKiller on Chrome.exe
+@ECHO [FINDSTR] Running tasklist . . .
+@ECHO [Process Name]               [PID] [Session name]    [Session#]        [MEM]
+TASKLIST  |   FINDSTR /I  chrome.exe   ||  START /I chrome.exe  
+ECHO [FINDSTR] Finished.
 @ECHO Kill Process?
 @ECHO OFF
 PAUSE
@@ -22,7 +22,7 @@ if /I not "!UserChoice!" == "Y" endlocal & exit /B
 cls
 color 0c
 taskkill /IM chrome.exe /F 
-@ECHO [ProcessKiller] will now terminate
+@ECHO [ProcessKiller] Will now terminate
 @ECHO OFF
 PAUSE 
 EXIT /B 
